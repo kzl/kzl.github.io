@@ -27,16 +27,17 @@
           <tr style="padding:0px">
             <td style="padding:2.5%;width:63%;vertical-align:middle">
               <p style="text-align:center">
-                <name>Kevin Lu</name>
+                <name1>Kevin Lu</name1>
               </p>
               <p>
                 I am a third-year undergraduate studying EECS at UC Berkeley.
-                I work on reinforcement learning, decision making, and planning as part of the <a href="http://rll.berkeley.edu/">Robot Learning Lab</a>
-                  where I am lucky to work with <a href="https://scholar.google.com/citations?user=Vzr1RukAAAAJ&hl=en">Igor Mordatch</a>,
+                I work on reinforcement learning, decision making, and artificial intelligence as part of the
+                  <a href="http://rll.berkeley.edu/">Robot Learning Lab</a> where I am fortunate to work with
+                  <a href="https://scholar.google.com/citations?user=Vzr1RukAAAAJ&hl=en">Igor Mordatch</a>,
                   <a href="https://aditya-grover.github.io/">Aditya Grover</a>, and
-                  Professor <a href="https://people.eecs.berkeley.edu/~pabbeel/">Pieter Abbeel</a>.
-                My work has studied getting robots to learn without access to manual resets.
-                I am the head TA of <a href="https://inst.eecs.berkeley.edu/~ee126">EECS 126</a>, Berkeley's class on probability and random processes.
+                  <a href="https://people.eecs.berkeley.edu/~pabbeel/">Pieter Abbeel</a>.
+                I am the head TA of <a href="https://inst.eecs.berkeley.edu/~ee126">EECS 126</a>, Berkeley's class on
+                  probability and random processes.
               </p>
               <p style="text-align:center">
                 <a href="mailto:kzl@berkeley.edu">Email</a> &nbsp/&nbsp
@@ -56,12 +57,54 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
               <p>
-                I am broadly interested in decision making, reinforcement learning, multi-agent systems, deep learning, and artificial intelligence, particularly in the consideration of uncertainty in risk-critical sequential settings.
+                I am broadly interested in decision making, reinforcement learning, multi-agent systems, deep learning,
+                  and artificial intelligence, particularly in the consideration of uncertainty in risk-critical
+                  sequential settings.
               </p>
             </td>
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          <tr onmouseout="lisp_stop()" onmouseover="lisp_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='lisp_image'><img src="images/lisp_volcano.png" class="icon"></div>
+                <img src="images/lisp_mc.png", class="icon">
+              </div>
+              <script type="text/javascript">
+                function lisp_start() {
+                  document.getElementById('lisp_image').style.opacity = "1";
+                }
+
+                function lisp_stop() {
+                  document.getElementById('lisp_image').style.opacity = "0";
+                }
+                aop_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2012.03548">
+                <papertitle>Reset-Free Lifelong Learning with Skill-Space Planning</papertitle>
+              </a>
+              <br>
+              <strong>Kevin Lu</strong>,
+              <a href="https://aditya-grover.github.io/">Aditya Grover</a>,
+              <a href="https://people.eecs.berkeley.edu/~pabbeel/">Pieter Abbeel</a>,
+              <a href="https://scholar.google.com/citations?user=Vzr1RukAAAAJ&hl=en">Igor Mordatch</a>
+              <br>
+              <em>NeurIPS Deep RL Workshop</em>, 2020 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font> (In submission)
+              <br>
+              <a href="https://arxiv.org/abs/2012.03548">arXiv</a> /
+              <a href="https://sites.google.com/berkeley.edu/reset-free-lifelong-learning">website</a> /
+              <a href="https://slideslive.com/38941338/resetfree-lifelong-learning-with-skillspace-planning?ref=account-folder-62083-folders">talk</a> /
+              <a href="https://sites.google.com/berkeley.edu/reset-free-lifelong-learning/poster?authuser=0">poster</a> /
+              <a href="https://github.com/kzl/lifelong_rl">code</a>
+              <br>
+              <p></p>
+              <p>Tackling reset-free learning in dynamically changing worlds by combining model-based planning with model-free learning, utilizing an expensive planner only when necessary.</p>
+            </td>
+          </tr>
 
           <tr onmouseout="aop_stop()" onmouseover="aop_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -89,13 +132,13 @@
               <a href="https://scholar.google.com/citations?user=Vzr1RukAAAAJ&hl=en">Igor Mordatch</a>,
               <a href="https://people.eecs.berkeley.edu/~pabbeel/">Pieter Abbeel</a>
               <br>
-              <em>NeurIPS Deep RL</em>, 2019 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font>
+              <em>NeurIPS Deep RL Workshop</em>, 2019 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font>
               <br>
               <a href="https://arxiv.org/abs/1912.01188">arXiv</a> /
+              <a href="https://sites.google.com/berkeley.edu/aop">website</a> /
               <a href="https://www.google.com/url?q=https%3A%2F%2Fslideslive.com%2F38922739%2Fcontributed-talk-adaptive-online-planning-for-lifelong-reinforcement-learning&sa=D&sntz=1&usg=AFQjCNHSjq2yx6TNR1Bgf29Yb2RMLbaXPQ">talk</a> /
               <a href="https://www.google.com/url?q=https%3A%2F%2Fkzl.github.io%2Faop%2Fposter.pdf&sa=D&sntz=1&usg=AFQjCNHjrtDdIZlJ7e96IW39csxiv935VQ">poster</a> /
-              <a href="https://sites.google.com/berkeley.edu/aop">website</a> /
-              <a href="https://sites.google.com/berkeley.edu/aop">code</a>
+              <a href="https://github.com/kzl/aop">code</a>
               <br>
               <p></p>
               <p>Tackling reset-free learning in dynamically changing worlds by combining model-based planning with model-free learning, utilizing an expensive planner only when necessary.</p>
