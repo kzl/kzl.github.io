@@ -30,24 +30,25 @@
                 <name>Kevin Lu</name>
               </p>
               <p>
-                I am a third-year undergraduate studying EECS at UC Berkeley.
                 I work on reinforcement learning, decision making, and artificial intelligence as part of the
                   <a href="http://rll.berkeley.edu/">Robot Learning Lab</a> where I am fortunate to work with
                   <a href="https://scholar.google.com/citations?user=Vzr1RukAAAAJ&hl=en">Igor Mordatch</a>,
                   <a href="https://aditya-grover.github.io/">Aditya Grover</a>, and
                   <a href="https://people.eecs.berkeley.edu/~pabbeel/">Pieter Abbeel</a>.
-                I am the head TA of <a href="https://inst.eecs.berkeley.edu/~ee126">EECS 126</a>, Berkeley's class on
-                  probability and random processes.
+                I recently finished my undergraduate studies in UC Berkeley where I studied Electrical Engineering
+                  and Computer Science.
+                I will be starting as an AI resident for one year at Facebook AI Research in the fall.
               </p>
               <p style="text-align:center">
                 <a href="mailto:kzl@berkeley.edu">Email</a> &nbsp/&nbsp
-                <a href="materials/kevin_lu_resume.pdf">Resume</a> &nbsp/&nbsp
+                <a href="assets/cv.pdf">CV</a> &nbsp/&nbsp
                 <a href="https://scholar.google.com/citations?user=E8s73dYAAAAJl">Google Scholar</a> &nbsp/&nbsp
+                <a href="https://twitter.com/_kevinlu">Twitter</a> &nbsp/&nbsp
                 <a href="http://www.github.com/kzl">Github</a>
               </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
-              <a href="materials/profile_picture.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="materials/profile_picture.jpg" class="hoverZoomLink circle"></a>
+              <a href="assets/profile_picture.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="assets/profile_picture.jpg" class="hoverZoomLink circle"></a>
             </td>
           </tr>
         </tbody></table>
@@ -65,6 +66,48 @@
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          <tr onmouseout="dt_stop()" onmouseover="dt_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='dt_image'><img src="images/dt_graph.png" class="icon"></div>
+                <img src="images/dt_architecture.png", class="icon">
+              </div>
+              <script type="text/javascript">
+                function dt_start() {
+                  document.getElementById('dt_image').style.opacity = "1";
+                }
+
+                function dt_stop() {
+                  document.getElementById('dt_image').style.opacity = "0";
+                }
+                lisp_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://sites.google.com/berkeley.edu/decision-transformer">
+                <papertitle>Decision Transformer: Reinforcement Learning via Sequence Modeling</papertitle>
+              </a>
+              <br>
+              <a href="https://scholar.google.com/citations?user=YiwED14AAAAJ&hl=en">Lili Chen*</a>,
+              <strong>Kevin Lu*</strong>,
+              <a href="https://homes.cs.washington.edu/~aravraj/">Aravind Rajeswaran</a>,
+              <a href="https://sites.google.com/view/kiminlee">Kimin Lee</a>,
+              <a href="https://aditya-grover.github.io/">Aditya Grover</a>,
+              <a href="https://mishalaskin.github.io/">Michael Laskin</a>,
+              <a href="https://people.eecs.berkeley.edu/~pabbeel/">Pieter Abbeel</a>,
+              <a href="https://people.eecs.berkeley.edu/~aravind/">Aravind Srinivas*</a>,
+              <a href="https://scholar.google.com/citations?user=Vzr1RukAAAAJ&hl=en">Igor Mordatch*</a>
+              <br>
+              <em>arXiv preprint</em>, 2021
+              <br>
+              <a href="https://sites.google.com/berkeley.edu/decision-transformer">website</a> /
+              <a href="https://github.com/kzl/decision-transformer">code</a>
+              <br>
+              <p></p>
+              <p>We show that a simple transformer trained with a sequence modeling objective can be competitive with strong specialized offline RL methods.</p>
+            </td>
+          </tr>
 
           <tr onmouseout="fpt_stop()" onmouseover="fpt_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -101,6 +144,7 @@
               <br>
               unofficial:
               <a href="https://venturebeat.com/2021/03/11/hugging-face-triples-investment-in-open-source-machine-learning-models/">press</a> /
+              <a href="https://www.youtube.com/watch?v=69paLneM6LU">podcast</a> /
               <a href="https://www.youtube.com/watch?v=Elxn8rS88bI&ab_channel=YannicKilcher">video</a> (by Yannic Kilcher)
               <br>
               <p></p>
