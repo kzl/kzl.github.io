@@ -30,14 +30,25 @@
                 <name>Kevin Lu</name>
               </p>
               <p>
-                I am an AI resident at Facebook AI Research, advised by <a href="https://amyzhang.github.io/">Amy Zhang</a> and <a href="https://yuandong-tian.com/">Yuandong Tian</a>.
-                My research interests are in sequential decision making, as well as universality in deep learning and AI.
-                I previously graduated with my B.S. in Electrical Engineering and Computer Science from UC Berkeley in 2021, where I did
-                undergraduate research as part of the <a href="http://rll.berkeley.edu/">Robot Learning Lab</a> advised by <a href="https://scholar.google.com/citations?user=Vzr1RukAAAAJ&hl=en">Igor Mordatch</a>
+                I am an AI resident at Facebook AI Research, advised by
+                <a href="https://amyzhang.github.io/">Amy Zhang</a> and
+                <a href="https://yuandong-tian.com/">Yuandong Tian</a>.
+              </p>
+              <p>
+                I'm interested in training universal deep learning models for sequential decision making.
+                Some of my past work has included transformers for
+                <a href="https://arxiv.org/abs/2106.01345">reinforcement learning</a> and
+                <a href="https://arxiv.org/abs/2103.05247">cross-modal transfer</a>.
+              </p>
+              <p>
+                I previously graduated with a B.S. in Electrical Engineering and Computer Science
+                from UC Berkeley in 2021, where I did undergraduate research as part of the
+                <a href="http://rll.berkeley.edu/">Robot Learning Lab</a> advised by
+                <a href="https://scholar.google.com/citations?user=Vzr1RukAAAAJ&hl=en">Igor Mordatch</a>
                 and <a href="https://people.eecs.berkeley.edu/~pabbeel/">Pieter Abbeel</a>.
               </p>
               <p style="text-align:center">
-                <a href="mailto:kzl@fb.com">Email</a> &nbsp/&nbsp
+                <a href="mailto:kzl@fb.com">kzl @ {fb.com, berkeley.edu}</a> &nbsp/&nbsp
                 <a href="assets/cv.pdf">CV</a> &nbsp/&nbsp
                 <a href="https://scholar.google.com/citations?user=E8s73dYAAAAJ">Google Scholar</a> &nbsp/&nbsp
                 <a href="https://twitter.com/_kevinlu">Twitter</a> &nbsp/&nbsp
@@ -52,13 +63,7 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Research</heading>
-              <p>
-                I am broadly interested in artificial intelligence.
-                I am particularly interested in making learning more autonomous, such as enabling agents to learn in
-                reset-free, nonstationary, or unsupervised settings; or by incorporating more sources of supervision,
-                such as offline or multimodal data.
-              </p>
+              <heading>Highlighted Papers</heading>
             </td>
           </tr>
         </tbody></table>
@@ -82,7 +87,7 @@
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://sites.google.com/berkeley.edu/decision-transformer">
+              <a href="https://arxiv.org/abs/2106.01345">
                 <papertitle>Decision Transformer: Reinforcement Learning via Sequence Modeling</papertitle>
               </a>
               <br>
@@ -91,7 +96,7 @@
               <a href="https://homes.cs.washington.edu/~aravraj/">Aravind Rajeswaran</a>,
               <a href="https://sites.google.com/view/kiminlee">Kimin Lee</a>,
               <a href="https://aditya-grover.github.io/">Aditya Grover</a>,
-              <a href="https://mishalaskin.github.io/">Michael Laskin</a>,
+              <a href="https://www.mishalaskin.com/edaaae9ed2b54016a66a0e315a9c9f63">Michael Laskin</a>,
               <a href="https://people.eecs.berkeley.edu/~pabbeel/">Pieter Abbeel</a>,
               <a href="https://people.eecs.berkeley.edu/~aravind/">Aravind Srinivas*</a>,
               <a href="https://scholar.google.com/citations?user=Vzr1RukAAAAJ&hl=en">Igor Mordatch*</a>
@@ -154,6 +159,56 @@
               <p>We show that a transformer pretrained on natural language can, without finetuning of the self-attention and feedforward layers, match the performance of a transformed fully trained on a downstream non-language modality.</p>
             </td>
           </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+          <td style="padding:20px;width:100%;vertical-align:middle">
+            <heading>All Papers</heading>
+          </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr onmouseout="urlb_stop()" onmouseover="urlb_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='urlb_image'><img src="images/urlb_after.png" class="icon"></div>
+                <img src="images/urlb_before.png", class="icon">
+              </div>
+              <script type="text/javascript">
+                function urlb_start() {
+                  document.getElementById('urlb_image').style.opacity = "1";
+                }
+
+                function urlb_stop() {
+                  document.getElementById('urlb_image').style.opacity = "0";
+                }
+                lisp_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2110.15191">
+                <papertitle>URLB: Unsupervised Reinforcement Learning Benchmark</papertitle>
+              </a>
+              <br>
+              <a href="https://www.mishalaskin.com/edaaae9ed2b54016a66a0e315a9c9f63">Michael Laskin*</a>,
+              <a href="https://cs.nyu.edu/~dy1042/">Denis Yarats*</a>,
+              <a href="https://www.haoliu.site/">Hao Liu</a>,
+              <a href="https://sites.google.com/view/kiminlee">Kimin Lee</a>,
+              <a href="https://www.linkedin.com/in/albert-zhan/">Albert Zhan</a>,
+              <strong>Kevin Lu</strong>,
+              <a href="https://catherinecang.github.io/">Catherine Cang</a>,
+              <a href="https://www.lerrelpinto.com/">Lerrel Pinto</a>,
+              <a href="https://people.eecs.berkeley.edu/~pabbeel/">Pieter Abbeel</a>,
+              <br>
+              <em>Neural Information Processing Systems (NeurIPS), Datasets and Benchmarks Track</em>, 2021
+              <br>
+              <a href="https://arxiv.org/abs/2110.15191">arXiv</a> /
+              <a href="https://github.com/rll-research/url_benchmark">code</a>
+              <br>
+              <p></p>
+              <p>We benchmark leading unsupervised exploration algorithms on downstream finetuning performance.</p>
+            </td>
+          </tr>
 
           <tr onmouseout="lisp_stop()" onmouseover="lisp_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -182,7 +237,7 @@
               <a href="https://people.eecs.berkeley.edu/~pabbeel/">Pieter Abbeel</a>,
               <a href="https://scholar.google.com/citations?user=Vzr1RukAAAAJ&hl=en">Igor Mordatch</a>
               <br>
-              <em>International Conference on Learning Representations</em>, 2021
+              <em>International Conference on Learning Representations (ICLR)</em>, 2021
               <br>
               <em>NeurIPS Deep RL Workshop</em>, 2020 &nbsp <font color="red"><strong>(Contributed Talk)</strong></font>
               <br>
@@ -226,7 +281,7 @@
               <a href="https://people.eecs.berkeley.edu/~pabbeel/">Pieter Abbeel</a>,
               <a href="https://scholar.google.com/citations?user=sDfZnUcAAAAJ&hl=en">Stas Tiomkin</a>
               <br>
-              <em>International Conference on Learning Representations</em>, 2021
+              <em>International Conference on Learning Representations (ICLR)</em>, 2021
               <br>
               <a href="https://arxiv.org/abs/2007.07356">arXiv</a> /
               <a href="https://sites.google.com/view/latent-gce">website</a> /
